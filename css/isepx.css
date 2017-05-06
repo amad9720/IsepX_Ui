@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body, h1 {
+  font-family: "Dosis"
+
+}
+
+body {
+  padding-top: 50px;
+  color: #ff8100;
+  background-color: #444;
+}
+
+#questionLawAssist{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.modal-body{
+  color: black;
+}
+
+.jumbotron {
+  background-color: transparent;
+  border-bottom: 1px solid #e7e7e7;
+}
+.footer {
+  margin: 50px 0 0 0;
+  padding: 20px 0;
+  background: #333;
+}
+.footerbottom{
+  margin: 50px 0 0 0;
+  padding: 20px 0;
+  background: #333;
+  position: fixed;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+  margin: 0;
+}
+.navbar-inverse {
+  background-color: #333;
+  border-color: #333;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>li>a, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    color: #ff8100;
+}
+
+.navbar-brand {
+float: left;
+height: 50px;
+padding: 15px 15px;
+font-size: 30px;
+line-height: 20px;
+}
+
+.carousel-control.left,
+.carousel-control.right{
+  background: transparent;
+}
+.jumbotron{
+  background: url(http://www.dincturkhukuk.com/wp-content/uploads/2015/05/bg2.jpg);
+}
+
+.item{
+  padding: 0 10%;
+}
+.item h1{
+  text-shadow: 3px 3px 20px #000;
+}
