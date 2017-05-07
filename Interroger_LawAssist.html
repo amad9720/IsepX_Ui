@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="css/isepx.css">
+    <link rel="stylesheet" type="text/css" href="css/outputs.css">
     <style type="text/css">
 
 
@@ -23,7 +24,7 @@
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,142 +37,139 @@
 
     <div class="container">
 
-  <div class="masthead">
+        <div class="masthead">
 
-  <!-- Barre de Navigation -->
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="https://ibb.co/nhVDWQ">
-        <img alt="Owl Orange" src="https://image.ibb.co/eOgLBQ/owl_logo_orange.png" width="60" height="70">
-      </a>
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">LawAssist</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="Accueil_LawAssist.html">Accueil</a></li>
-        <li><a href="Interroger_LawAssist.html">Interrogez moi !</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">A Propos<span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">L'équipe</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-
-
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</div>
-
-      <!-- Jumbotron -->
-      <!--
-      <div class='jumbotron text-center'>
-        <h1>Le Code du Travail, rendu intelligent!</h1>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class='btn btn-success btn-lg' href="#" role="button">En Savoir Plus</a></p>
-      </div>-->
-
-      <!-- Grille -->
-      <div class="row">
-
-        <div class="col-lg-8 col-lg-offset-2" id="questionLawAssist">
-          <h3>Entrez votre question</h3>
-          <div class="form-group has-success has-feedback">
-            <!--<label class="control-label" for="inputSuccess2">Input with success</label>-->
-            <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
-            <span id="inputSuccess2Status" class="sr-only">(success)</span>
-          </div>
-                        <!-- Button trigger modal -->
-              <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">  Validez
-              </button>
-              
-
-              <!-- Modal -->
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel">Réponse</h4>
-                    </div>
-                    <div class="modal-body">
-                      <h4>Article 1</h4><br>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><br>
-                      <h4>Article 2</h4><br>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><br>
-                      <h4>Article 3</h4><br>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><br>
-                      <h4>Article 5</h4><br>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><br>
-                      
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-success">Save</button>
-                    </div>
-                  </div>
+          <!-- Barre de Navigation -->
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="./Accueil_LawAssist.html">
+                    <img alt="Owl Orange" src="https://image.ibb.co/eOgLBQ/owl_logo_orange.png" width="60" height="70">
+                  </a>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">LawAssist</a>
                 </div>
-              </div>
-        </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="Accueil_LawAssist.html">Accueil</a></li>
+                    <li><a href="Interroger_LawAssist.html">Interrogez moi !</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">A Propos<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">L'équipe</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
 
 
-        <div class="col-lg-6 col-lg-push-6">
-          <h2>Safari bug warning!</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><br>
-          <p><a class='btn btn-default' href="#" role="button">Voir details &raquo;</a></p>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-pull-3">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p><br>
-          <p><a class='btn btn-default'  href="#" role="button">Voir details &raquo;</a></p>
-       </div>
-        <div class="col-sm-6 col-md-3 col-lg-pull-9">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa. tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p><br>
-          <p><a class='btn btn-default' href="#" role="button">Voir details &raquo;</a></p>
-        </div>
-      </div>
 
+          <!-- Grille -->
+          <div class="row">
+                <div class="inner cover">
+                    <h1 class="cover-heading">A votre Planche, Pret ?.</h1>
+                    <p class="lead">Surfez sur les vagues du code du travail n'a jamais ete aussi facile. Gagnez en temps et efficaciteé</p>
+                </div>
+          </div>
+          
+			<div class="input">
+				<div class="input--question-generator"
+					style="cursor: pointer;">Get a random question about
+					Law</div>
+				<div class="input--container">
+					<p id="query" class="input--question"></p>
+				</div>
+			</div>
+          
+          <div class="row">
+            <form>
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="input-group ">
+                        <input type="text" name="question" id="inputEmail" class="form-control large" placeholder="Entrer votre question" required autofocus>
+                        <span class="input-group-btn">
+                            <button class="btn btn-default large btn-orange" type="submit" name="ask">Ask !</button>
+                        </span>
+                    </div><!-- /input-group -->
+
+                </div>
+            </form>
+
+          </div>
+          <div class="row">
+              <h3 class="base--h3">FeedBack</h3>
+			<div class="error">
+				<div class="input--container">
+				    <h4>Errors</h4>
+					<p id="query" class="input--question base--p"></p>
+				</div>
+			</div>
+          </div>
+          
+              
+                <div class="output">
+                    <div class="_demo--container">
+                        <h3 class="base--h3">Reponses</h3>
+                        <div class="toggle">
+                            <div class="toggle--item active">Machine learning approach</div>
+                        </div>
+                        <div class="service--results"></div>
+                    </div>
+                </div>
+                <div class="results--item result--template" style="display: ;">
+                    <div class="results--item-container">
+                        
+                        <div class="results--basic-info">
+                            <div class="results--item-text">Votre Patrons Doit Vous respecter
+                                <span class="icon icon-see_more results--see-more">>></span>
+                            </div>
+                            <div class="results--item-score">
+                                <div class="results--item-score-title">Domain expert review</div>
+                                <div class="results--item-score-value">
+                                    <div class="results--item-score-bar"></div>
+                                    <div class="results--item-score-bar"></div>
+                                    <div class="results--item-score-bar"></div>
+                                    <div class="results--item-score-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results--more-info" style="display: ;">
+                            <blockquote class="results--item-details base--blockquote">
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
 
 
     </div> <!-- /container -->
 
- <!-- Bas de Page (footer) -->
-  <div class="footerbottom">
+    <!-- Bas de Page (footer) -->
+   
+<div class="footerbottom">
     <p  class="text-center"><strong><small>&copy; Team IsepX - 2017</small></strong></p>
-  </div>
+</div>
 
-
-     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/outputs.js"></script>
   </body>
 </html>

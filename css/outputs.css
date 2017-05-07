@@ -1,0 +1,130 @@
+.output {
+  padding: 10px;
+  margin-top: 30px;
+/*  display: block !important;*/
+
+}
+
+@media (min-width: 768px) {
+  ._demo--container {
+    width: 760px;
+    margin: 0rem auto;
+  }
+}
+@media (min-width: 1200px) {
+  ._demo--container {
+    width: 992px;
+    margin: 0rem auto;
+  }
+}
+
+.base--h3, {
+  font-size: 1.5625em;
+  font-weight: 400;
+  color: #ff0000;
+}
+
+.base--p, {
+  font-size: 1em;
+  color: #5a5a5a;
+  margin-top: 0;
+}
+
+.toggle {
+  color: #325c80;
+  border-bottom: 2px solid #aeb8b8;
+}
+
+.toggle--item {
+  display: inline-block;
+  padding: .5rem 1rem;
+  border-bottom: 4px solid transparent
+}
+
+
+.toggle--item.active {
+  border-bottom: 4px solid #325c80
+}
+.icon-see_more:before {
+	content: "\E009"
+}
+
+.icon {
+  vertical-align: middle;
+  display: inline;
+}
+
+.results--more-info {
+  margin-top: 0;
+  display: none
+}
+.results--see-more {
+  font-size: .8em;
+  color: #325c80;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform-origin: 50% 45%;
+  -ms-transform-origin: 50% 45%;
+  transform-origin: 50% 45%;
+  display: inline-block
+}
+.results {
+  display: table;
+  width: 100%
+}
+.results--item-container {
+  background-color: #fff;
+  display: table;
+  width: 100%
+}
+.results--item-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: .5rem
+}
+.results--item-score {
+  display: table-cell;
+  margin-top: 0;
+  padding: .25rem 0;
+  width: 8em;
+}
+.results--item-score-title {
+  color: #325c80;
+  font-size: .75019em;
+  text-align: center
+}
+.results--item-score-value {
+  margin-top: 0;
+  text-align: center
+}
+.results--item-score-bar {
+  height: 1.2em;
+  width: .6em;
+  background-color: #dfe9e9;
+  display: inline-block;
+  margin-top: .5em
+}
+.results--item-score-bar.green {
+  background-color: #41d6c3
+}
+.results--item-rank {
+  display: table-cell;
+  width: 4em;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 4px solid #f4f4f4
+}
+.results--item-details {
+  font-size: .8em;
+  padding-right: 0;
+  margin-bottom: 1rem
+}
+.base--blockquote, blockquote {
+  padding: 0em 1.5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-style: italic;
+  color: #5a5a5a;
+  border-left: 0.25em solid #6d120f;
+}
